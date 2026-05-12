@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-10T21:32:51 IST" name="Suite" finished-at="2026-05-10T21:33:21 IST" duration-ms="29889">
+    <groups>
+      <group name="smoke">
+        <method signature="ViewTest.viewProduct()[pri:0, instance:ecommerce.ViewTest@6aaceffd]" name="viewProduct" class="ecommerce.ViewTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-10T21:32:51 IST" name="Test" finished-at="2026-05-10T21:33:21 IST" duration-ms="29889">
+      <class name="ecommerce.OrderTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:ecommerce.OrderTest@7d20d0b]" started-at="2026-05-10T21:32:51 IST" name="setup" finished-at="2026-05-10T21:33:11 IST" duration-ms="20508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ecommerce.OrderTest.order()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="order()[pri:0, instance:ecommerce.OrderTest@7d20d0b]" started-at="2026-05-10T21:33:11 IST" name="order" finished-at="2026-05-10T21:33:18 IST" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerce.OrderTest@7d20d0b]" started-at="2026-05-10T21:33:18 IST" name="tearDown" finished-at="2026-05-10T21:33:19 IST" duration-ms="1593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=order status=SUCCESS method=OrderTest.order()[pri:0, instance:ecommerce.OrderTest@7d20d0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.OrderTest -->
+      <class name="ecommerce.ViewTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:ecommerce.ViewTest@6aaceffd]" started-at="2026-05-10T21:32:51 IST" name="setup" finished-at="2026-05-10T21:33:15 IST" duration-ms="23695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ecommerce.ViewTest.viewProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="viewProduct()[pri:0, instance:ecommerce.ViewTest@6aaceffd]" started-at="2026-05-10T21:33:15 IST" name="viewProduct" finished-at="2026-05-10T21:33:16 IST" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerce.ViewTest@6aaceffd]" started-at="2026-05-10T21:33:16 IST" name="tearDown" finished-at="2026-05-10T21:33:19 IST" duration-ms="2613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewProduct status=SUCCESS method=ViewTest.viewProduct()[pri:0, instance:ecommerce.ViewTest@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.ViewTest -->
+      <class name="ecommerce.CartTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:ecommerce.CartTest@e4487af]" started-at="2026-05-10T21:32:51 IST" name="setup" finished-at="2026-05-10T21:33:09 IST" duration-ms="18660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ecommerce.CartTest.cart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cart()[pri:0, instance:ecommerce.CartTest@e4487af]" started-at="2026-05-10T21:33:09 IST" name="cart" finished-at="2026-05-10T21:33:14 IST" duration-ms="4776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerce.CartTest@e4487af]" started-at="2026-05-10T21:33:14 IST" name="tearDown" finished-at="2026-05-10T21:33:18 IST" duration-ms="3994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cart status=SUCCESS method=CartTest.cart()[pri:0, instance:ecommerce.CartTest@e4487af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.CartTest -->
+      <class name="ecommerce.AddtocartTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:ecommerce.AddtocartTest@687e99d8]" started-at="2026-05-10T21:32:51 IST" name="setup" finished-at="2026-05-10T21:33:13 IST" duration-ms="22262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ecommerce.AddtocartTest.addcartproduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addcartproduct()[pri:0, instance:ecommerce.AddtocartTest@687e99d8]" started-at="2026-05-10T21:33:13 IST" name="addcartproduct" finished-at="2026-05-10T21:33:17 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcartproduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerce.AddtocartTest@687e99d8]" started-at="2026-05-10T21:33:17 IST" name="tearDown" finished-at="2026-05-10T21:33:19 IST" duration-ms="1666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addcartproduct status=SUCCESS method=AddtocartTest.addcartproduct()[pri:0, instance:ecommerce.AddtocartTest@687e99d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.AddtocartTest -->
+      <class name="ecommerce.ViewOrderTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:ecommerce.ViewOrderTest@757277dc]" started-at="2026-05-10T21:32:51 IST" name="setup" finished-at="2026-05-10T21:33:14 IST" duration-ms="22905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ecommerce.ViewOrderTest.view()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="view()[pri:0, instance:ecommerce.ViewOrderTest@757277dc]" started-at="2026-05-10T21:33:14 IST" name="view" finished-at="2026-05-10T21:33:20 IST" duration-ms="6281" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [41372afa92261ddf5b4e319018d0ed61, findElement {value=.btn.-teal'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64232}, goog:processID: 18940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64232/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41372afa92261ddf5b4e319018d0ed61]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [41372afa92261ddf5b4e319018d0ed61, findElement {value=.btn.-teal'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64232}, goog:processID: 18940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64232/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41372afa92261ddf5b4e319018d0ed61
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:756)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:749)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at utils.WaitUtils.waitForElementClickable(WaitUtils.java:28)
+at pages.ViewOrderPage.goToOrdersPage(ViewOrderPage.java:21)
+at ecommerce.ViewOrderTest.view(ViewOrderTest.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecommerce.ViewOrderTest@757277dc]" started-at="2026-05-10T21:33:20 IST" name="tearDown" finished-at="2026-05-10T21:33:21 IST" duration-ms="592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=view status=FAILURE method=ViewOrderTest.view()[pri:0, instance:ecommerce.ViewOrderTest@757277dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.ViewOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

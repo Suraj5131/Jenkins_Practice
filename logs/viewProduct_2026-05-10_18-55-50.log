@@ -1,0 +1,11 @@
+2026-05-10 18:55:51 [main] INFO  viewProduct - Initializing driver
+2026-05-10 18:55:58 [main] INFO  viewProduct - Opening URL
+2026-05-10 18:55:59 [main] INFO  viewProduct - Logging into application
+2026-05-10 18:56:00 [main] INFO  ViewProduct - Started View Product Test
+2026-05-10 18:56:01 [main] INFO  Teststep1 - Screenshot saved at: C:\Users\Admin\eclipse\java-2025-06\eclipse\Ends_to_End\Screnshots\ViewProduct\Teststep1_1778419561174.png
+2026-05-10 18:56:01 [main] INFO  ViewProduct - View product done
+2026-05-10 18:56:01 [main] INFO  ViewProduct - Clicked Continue Shopping
+2026-05-10 18:56:02 [main] INFO  Teststep2 - Screenshot saved at: C:\Users\Admin\eclipse\java-2025-06\eclipse\Ends_to_End\Screnshots\ViewProduct\Teststep2_1778419561764.png
+2026-05-10 18:56:02 [main] INFO  ViewProduct - Continue Shopping Completed
+2026-05-10 18:56:02 [main] INFO  viewProduct - TEST PASSED : viewProduct
+2026-05-10 18:56:02 [main] INFO  viewProduct - Driver Quit
