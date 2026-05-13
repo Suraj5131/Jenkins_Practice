@@ -1,0 +1,47 @@
+2026-05-14 00:33:15 [TestNG-test-Test-5] INFO  viewProduct - Initializing driver
+2026-05-14 00:33:29 [TestNG-test-Test-2] INFO  view - Opening URL
+2026-05-14 00:33:29 [TestNG-test-Test-4] INFO  cart - Opening URL
+2026-05-14 00:33:30 [TestNG-test-Test-5] INFO  viewProduct - Opening URL
+2026-05-14 00:33:31 [TestNG-test-Test-1] INFO  order - Opening URL
+2026-05-14 00:33:32 [TestNG-test-Test-3] INFO  addcartproduct - Opening URL
+2026-05-14 00:33:33 [TestNG-test-Test-2] INFO  view - Logging into application
+2026-05-14 00:33:33 [TestNG-test-Test-5] INFO  viewProduct - Logging into application
+2026-05-14 00:33:37 [TestNG-test-Test-1] INFO  order - Logging into application
+2026-05-14 00:33:37 [TestNG-test-Test-4] INFO  cart - Logging into application
+2026-05-14 00:33:37 [TestNG-test-Test-3] INFO  addcartproduct - Logging into application
+2026-05-14 00:33:41 [TestNG-test-Test-2] INFO  base.BaseTest - Product added into cart
+2026-05-14 00:33:42 [TestNG-test-Test-5] INFO  ViewProduct - Started View Product Test
+2026-05-14 00:33:43 [TestNG-test-Test-4] INFO  base.BaseTest - Product added into cart
+2026-05-14 00:33:43 [TestNG-test-Test-3] INFO  base.BaseTest - Product added into cart
+2026-05-14 00:33:43 [TestNG-test-Test-1] INFO  base.BaseTest - Product added into cart
+2026-05-14 00:33:44 [TestNG-test-Test-2] INFO  base.BaseTest - Product added and toast handled
+2026-05-14 00:33:44 [TestNG-test-Test-5] INFO  Teststep1 - Screenshot saved at: C:\Users\Admin\eclipse\java-2025-06\eclipse\Ends_to_End\Screnshots\ViewProduct\Teststep1_1778699023659.png
+2026-05-14 00:33:44 [TestNG-test-Test-5] INFO  ViewProduct - View product done
+2026-05-14 00:33:45 [TestNG-test-Test-5] INFO  ViewProduct - Clicked Continue Shopping
+2026-05-14 00:33:45 [TestNG-test-Test-5] INFO  Teststep2 - Screenshot saved at: C:\Users\Admin\eclipse\java-2025-06\eclipse\Ends_to_End\Screnshots\ViewProduct\Teststep2_1778699025236.png
+2026-05-14 00:33:45 [TestNG-test-Test-5] INFO  ViewProduct - Continue Shopping Completed
+2026-05-14 00:33:46 [TestNG-test-Test-4] INFO  base.BaseTest - Product added and toast handled
+2026-05-14 00:33:46 [TestNG-test-Test-3] INFO  base.BaseTest - Product added and toast handled
+2026-05-14 00:33:46 [TestNG-test-Test-1] INFO  base.BaseTest - Product added and toast handled
+2026-05-14 00:33:46 [TestNG-test-Test-4] INFO  base.BaseTest - Click on continues shopping
+2026-05-14 00:33:47 [TestNG-test-Test-2] INFO  base.BaseTest - Product Placed
+2026-05-14 00:33:49 [TestNG-test-Test-1] INFO  base.BaseTest - Product Placed
+2026-05-14 00:33:51 [TestNG-test-Test-5] INFO  viewProduct - TEST PASSED : viewProduct
+2026-05-14 00:33:51 [TestNG-test-Test-5] INFO  viewProduct - Driver Quit
+2026-05-14 00:33:51 [TestNG-test-Test-3] INFO  addcartproduct - TEST PASSED : addcartproduct
+2026-05-14 00:33:51 [TestNG-test-Test-3] INFO  addcartproduct - Driver Quit
+2026-05-14 00:33:51 [TestNG-test-Test-4] INFO  cart - TEST PASSED : cart
+2026-05-14 00:33:51 [TestNG-test-Test-4] INFO  cart - Driver Quit
+2026-05-14 00:33:51 [TestNG-test-Test-2] ERROR view - TEST FAILED : view
+2026-05-14 00:33:51 [TestNG-test-Test-2] ERROR view - Reason : org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=148.0.7778.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83fcba5f16cad5abba02eddf7b6c631d, findElement {using=css selector, value=.btn.-teal']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62385}, goog:processID: 24444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62385/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83fcba5f16cad5abba02eddf7b6c631d
+2026-05-14 00:33:51 [TestNG-test-Test-2] INFO  view - Driver Quit
+2026-05-14 00:33:52 [TestNG-test-Test-1] INFO  order - TEST PASSED : order
+2026-05-14 00:33:52 [TestNG-test-Test-1] INFO  order - Driver Quit
