@@ -5,8 +5,8 @@
     <classes>
       <class name="ecommerce.ViewOrderTest">
         <methods>
-          <include name="view"/>
           <include name="setup"/>
+          <include name="view"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- ecommerce.ViewOrderTest -->
